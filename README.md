@@ -17,7 +17,7 @@ The packages used in this analysis are: pandas, matplotlib, seaborn, spotipy, da
 
 ## Get your Client and Secret iD via Spotify for Developers
 To access the Spotify API you will need to connect Spotify Developer to your Spotify Account
-1. Either log into your Spotify Developer account or sign up (here)[https://developer.spotify.com/dashboard/login].
+1. Either log into your Spotify Developer account or sign up [here](https://developer.spotify.com/dashboard/login).
 2. Access your Develop Dashboard
 3. Create a new app. Note, you cannot monetize apps created with the API
 4. Click on your app and you'll see your client id at the top and the option to toggle your secret id visible. You'll need these both in the next step: configuring the settings. 
