@@ -51,7 +51,8 @@ There are a couple of personal ids to keep private, your client_id and secret_id
 - The monthly average of song attributes of the songs you listened to over the course of the length of the data.<br>
 - The total number of minutes of songs and podcasts listened to on a monthly basis. <br>
 - The total number of minutes of songs and podcasts listened to on a day of the week basis. <br>
-- The total number of minutes of songs and podcasts listened to on a time of day basis. 
+- The total number of minutes of songs and podcasts listened to on a time of day basis. <br>
+You can see these visualizations for my data in the `Spotify Listening History Data Analysis.ipynb` jupyter notebook. 
 
 ## Possible Additional Areas of Investigation
 1. Whether these types of patterns are typical, or if other people are more consistent in their patterns over time.
