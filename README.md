@@ -42,12 +42,12 @@ There are a couple of personal ids to keep private, your client_id and secret_id
 
 ## Retrieve and Visualize Data
 ### Retrieving the Track Attributes
-1. Run `spot_retrieve.py`. Depending on how many tracks are in your listening history this may take a while and a consitent internet connection is important. Upon comleting two csv files will be created in your project folder: <br>
+1. Run `python spot_retrieve.py`. Depending on how many tracks are in your listening history this may take a while and a consitent internet connection is important. Upon comleting two csv files will be created in your project folder: <br>
 'full_streaming_history.csv' -  This will contain your full listening history as Spotify sent it to you.<br>
 'listening_history_unique_songs.csv' - This will contain one entry for each unique track in your history along with all of the collected song and artist information. <br>
 'track_play_counts.csv' - This file will contain a mapping of each unique track with the number of times they appeared (were played) in your listening history. I did not use this file in my analysis for this project, but is useful information if you want to do further analysis. <br>
 ### Listening History Analysis
-1. Run `spot_analysis.py`. This script will calculate some basic summary statistics of your listening history and visualize the following: <br> 
+1. Run `python spot_analysis.py`. This script will calculate some basic summary statistics of your listening history and visualize the following: <br> 
 - The monthly average of song attributes of the songs you listened to over the course of the length of the data.<br>
 - The total number of minutes of songs and podcasts listened to on a monthly basis. <br>
 - The total number of minutes of songs and podcasts listened to on a day of the week basis. <br>
