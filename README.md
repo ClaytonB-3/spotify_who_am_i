@@ -23,16 +23,16 @@ To access the Spotify API you will need to connect Spotify Developer to your Spo
 4. Click on your app and you'll see your client id at the top and the option to toggle your secret id visible. You'll need these both in the next step: configuring the settings. 
 
 ## Settings
-There are a few variables you can set based on your preferences and timezone. Those variables are set in `settings.py` and are summarized below:
-change_timezone - Spotify sends the time data in the UTC timezone. If you would like to change the time zone leave this True. Otherwise, set it False
-timezone_change_start - The first date in a range to change the time (if change_timezone is True). Format: 'YYYY-MM-DD'
-timezone_change_end - The end day for the time zone change range
-hours_different - The number of hours to change the timezone by. Should be negative if behind UTC time, positive if ahead. 
-trim_first_month - If the first month of data is short and not ideal for monthly analysis, set True for it to be filtered before doing monthly analysis. 
-trim_last_month - Same as trim_first_month for the last month of the data.
-song_attributes - List of attributes to compare the average of month over month. Note that if you change this all items of the list should be on the same scale as they will be plotted together. 
-song_attributes_2 - A shorter list of attributes to plot with each other by month
-song_attributes_3 - Another shorter list of attributes to plot with each other by month
+There are a few variables you can set based on your preferences and timezone. Those variables are set in `settings.py` and are summarized below: <br>
+change_timezone - Spotify sends the time data in the UTC timezone. If you would like to change the time zone leave this True. Otherwise, set it False <br>
+timezone_change_start - The first date in a range to change the time (if change_timezone is True). Format: 'YYYY-MM-DD' <br>
+timezone_change_end - The end day for the time zone change range <br>
+hours_different - The number of hours to change the timezone by. Should be negative if behind UTC time, positive if ahead. <br>
+trim_first_month - If the first month of data is short and not ideal for monthly analysis, set True for it to be filtered before doing monthly analysis. <br>
+trim_last_month - Same as trim_first_month for the last month of the data.<br>
+song_attributes - List of attributes to compare the average of month over month. Note that if you change this all items of the list should be on the same scale as they will be plotted together. <br>
+song_attributes_2 - A shorter list of attributes to plot with each other by month. <br>
+song_attributes_3 - Another shorter list of attributes to plot with each other by month. <br>
 ### Private Settings
 There are a couple of personal ids to keep private, your client_id and secret_id. These are found in your Spotify Developer app as discussed earlier. Create a file called `private.py` in your working folder and create two variables: client_id, and client_secret. 
 
