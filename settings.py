@@ -25,7 +25,7 @@ trim_last_month = True
 song_attributes = ['Danceability','Energy','Acousticness', 'Valence',
                     'Mode', 'Instrumentalness']
 #Reduced list of song attributes to visualize over months
-song_attributes_2 = ['Acousticness','Energy']
+song_attributes_2 = ['Instrumentalness','Energy']
 
 # Third list of song attributes to visualize over months
 song_attributes_3 = ['Danceability','Valence']
