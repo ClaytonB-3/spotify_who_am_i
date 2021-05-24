@@ -208,7 +208,7 @@ melt_attribute_trim = melt_attribute_avg_month[melt_attribute_avg_month['Variabl
 fig, ax = plt.subplots(figsize=(20, 12))
 sns.lineplot(x='month_year', y='value', hue='Variable', data=melt_attribute_trim, palette = 'dark')
 #Plot title
-plt.title("Energy and Accousticness by Month", fontsize=28, fontweight=750, pad = 20)
+plt.title("Energy and Instrumentalness by Month", fontsize=28, fontweight=750, pad = 20)
 #Legend settings
 plt.setp(ax.get_legend().get_texts(), fontsize='22')
 plt.setp(ax.get_legend().get_title(), fontsize='32')
@@ -219,6 +219,8 @@ ax.set_xticklabels(labels = xlabels, rotation = 75, fontsize=20)
 plt.yticks(rotation = 45, fontsize=18)
 plt.grid(b=False, which='both',axis='y')
 ax.set(xlabel=None)
+#Legend settings
+plt.legend(bbox_to_anchor=(1.01, 1), loc=2, borderaxespad=0, fontsize=18)
 #Remove horizontal grid lines
 plt.grid(b=False, which='both',axis='y')
 
