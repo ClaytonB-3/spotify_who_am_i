@@ -38,7 +38,7 @@ There are a couple of personal ids to keep private, your client_id and secret_id
 
 ## Preparing Python
 1. Install Python 3 via Anaconda or other method. 
-2. In command line run `pip install -r requirements.txt` to install the required packages.
+2. In command line navigate to the directory containing the requirements text file and run `pip install -r requirements.txt` to install the required packages.
 
 ## Retrieve and Visualize Data
 ### Retrieving the Track Attributes
